@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StoreController : MonoBehaviour
 {
-    public int money;
+    [SerializeField] private Text moneyText;
+    private int money = 100;
     [SerializeField]private GameObject[] defenses;
+    public bool isEditing;
     public static StoreController instance;
 
     private void Start()
@@ -14,10 +17,16 @@ public class StoreController : MonoBehaviour
     public void SummonConstruction(int construction)
     {
         Defense currentConstruction = defenses[construction].GetComponent<Defense>();
-        if(currentConstruction.price[0] < money)
+        if(money >= currentConstruction.price[0])
         {
-            Instantiate(defenses[construction], MouseRaycast.MousePos(), transform.rotation);
-            money -= currentConstruction.price[construction];
+            Instantiate(defenses[construction], new Vector3(0, 0, 20), defenses[construction].transform.rotation);
+            money -= currentConstruction.price[0];
+            moneyText.text = $"Money: " + money;
         }
+    }
+
+    public void EditToggle(bool toggle)
+    {
+        isEditing = toggle;
     }
 }
