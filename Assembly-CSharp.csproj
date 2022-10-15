@@ -36,9 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\DefenseData.cs" />
+     <Compile Include="Assets\Scripts\ScriptDefense\DefenseData.cs" />
      <Compile Include="Assets\Scripts\ScriptStore\StoreController.cs" />
-     <Compile Include="Assets\Scripts\Defense.cs" />
+     <Compile Include="Assets\Scripts\ScriptDefense\Defense.cs" />
+     <Compile Include="Assets\Scripts\MouseRaycast.cs" />
+     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
