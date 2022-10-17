@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 909b884ef036e23409ad6230879ff3d8
+  - enabled: 1
+    path: Assets/Scenes/Vitoria.unity
+    guid: e38c4b854a9638b47bd6d03abe0821e4
+  - enabled: 1
+    path: Assets/Scenes/TelaDerrota.unity
+    guid: 7f19f6a739a50fb4e85788a0b2f4c169
   m_configObjects: {}
