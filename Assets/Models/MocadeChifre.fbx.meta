@@ -3,7 +3,32 @@ guid: 5615e569da7789347953ef619ee1b934
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cabelo
+    second: {fileID: 2100000, guid: 71eb87f940fcf39438cf1c3f19c058eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Capacete
+    second: {fileID: 2100000, guid: 964a8ce441232ce4c8c40ce62fcd1760, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corpo
+    second: {fileID: 2100000, guid: 2b3dbe51d07f44d44816a61694cb6447, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Detalhes
+    second: {fileID: 2100000, guid: 78b97fea79038c24aa42c15be699ed97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dobras
+    second: {fileID: 2100000, guid: 4873e06335bb58147a574a0bcf8218e1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
