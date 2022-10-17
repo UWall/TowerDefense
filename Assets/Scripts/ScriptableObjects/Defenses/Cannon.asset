@@ -14,10 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   price: 320000004b00000064000000
   attackSpeed:
-  - 0
-  - 0
-  - 0
+  - 2
+  - 1.5
+  - 1
   attackDamage:
-  - 0
-  - 0
-  - 0
+  - 1
+  - 2
+  - 3
+  attackRange:
+  - 10
+  - 12.5
+  - 15
+  projectile: {fileID: 7529708492061907166, guid: 2340cb0f02bb30947b443d97f54fba65, type: 3}

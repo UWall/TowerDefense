@@ -37,12 +37,20 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ScriptDefense\DefenseData.cs" />
+     <Compile Include="Assets\Scripts\ScriptGrid\DragableObject.cs" />
      <Compile Include="Assets\Scripts\ScriptDefense\Defense.cs" />
      <Compile Include="Assets\Scripts\ScriptStore\StoreController.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\MouseRaycast.cs" />
      <Compile Include="Assets\Scripts\ScriptGrid\GridCell.cs" />
-     <Compile Include="Assets\Scripts\ScriptGrid\DragableObject.cs" />
+     <Compile Include="Assets\Scripts\ScriptEnemy\Enemy.cs" />
+     <Compile Include="Assets\Scripts\ScriptEnemy\EnemyData.cs" />
+     <Compile Include="Assets\Scripts\ScriptEnemy\EnemyMove.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\ScriptEnemy\PointData.cs" />
+     <Compile Include="Assets\Scripts\ScenaryEnd.cs" />
+     <Compile Include="Assets\Scripts\ScriptEnemy\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\ScriptDefense\Bullet.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

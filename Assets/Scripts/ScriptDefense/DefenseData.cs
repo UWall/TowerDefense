@@ -5,4 +5,5 @@ public class DefenseData : ScriptableObject
 {
     public int[] price;
     public float[] attackSpeed, attackDamage, attackRange;
+    public GameObject projectile;
 }
