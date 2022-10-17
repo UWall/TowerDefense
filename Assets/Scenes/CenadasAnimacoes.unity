@@ -637,5 +637,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: AlienDiferenciadoParado
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 13389517e269c3f46be71da846afeb06, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2be1608f65b62d74cbabb5c5445d8fd9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13389517e269c3f46be71da846afeb06, type: 3}
